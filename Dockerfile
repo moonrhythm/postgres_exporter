@@ -1,4 +1,4 @@
-FROM prometheuscommunity/postgres-exporter:v0.12.0
+FROM prometheuscommunity/postgres-exporter:v0.12.1
 
 ENV PG_EXPORTER_EXTEND_QUERY_PATH=/config/queries.yaml
 ENV PG_EXPORTER_AUTO_DISCOVER_DATABASES=true
